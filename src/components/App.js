@@ -25,7 +25,6 @@ class App extends Component {
         />
         <SecondRandom 
           status={this.state.hidden}
-          
         />
       </div>
     )
