@@ -1,38 +1,43 @@
 import React, { Component } from 'react';
 import './App.css';
-import axios from 'axios';
-var NumberFormat = require('react-number-format');
+
 
 class App extends Component {
 
-  constructor(props) {
-    super(props);
+  hideFunc = () => {
+    // var x = document.getElementById("random");
+    // var y = document.getElementById("happycard");
+    // if (x.style.display === "none") {
+    //     x.style.display = "inline-block";
+    //     y.style.display = "none";
+    //     x.style.opacity = "1"
 
-    this.state = {
-      cryptos: []
-    };
-  }
-
-  componentDidMount() {
-    axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,IOT&tsyms=USD')
-      .then(res => {
-        const cryptos = res.data;
-        console.log(cryptos);
-        this.setState({cryptos: cryptos});
-      })
+    // } else {
+    //     y.style.display = "inline-block";
+    //     x.style.display = "none";
+    //     x.style.opacity = "0"
+    // }
   }
 
   render() {
     return (
       <div className="App">
-        {Object.keys(this.state.cryptos).map((key) => (
-
-          <div id="crypto-container">
-            <span className="left">{key}</span>
-            <span className="right"><NumberFormat value={this.state.cryptos[key].USD} displayType={'text'} decimalPrecision={2} thousandSeparator={true} prefix={'$'} /></span>
+      <div class="container">
+              <div classname="row justify-md-content-center">
+                  <div classname="col-align-self-center btn-random">
+                      <button classname="btn btn-success" id="random" onclick={this.hideFunc()}>Random</button>
+                  </div>
+                  <div classname="w-100"></div>
+                  <div classname="col-align-self-center happycard" id="happycard">
+                      <div>
+                      </div>
+                      <div>
+                          <button classname="btn btn-primary btn-confirm" onclick="">Random</button>
+                          <button classname="btn btn-secondary btn-confirm" onclick={this.hideFunc()}>Random</button>
+                      </div>
+                  </div>
+              </div>
           </div>
-
-        ))}
       </div>
     );
   }
