@@ -1,5 +1,6 @@
 .App {
-  /* text-align: center; */
-  /* background-color: aquamarine */
-
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
 }
