@@ -8,8 +8,11 @@ class FirstRandom extends Component {
 
     render() {
         return (
-            <div className="body">
-                <button onClick={() => this.props.runSecondRandom()} style={{visibility: this.props.status ? "visibility" : "hidden"}}>TEST BUTTON 1</button>
+            <div className="container">
+                <button className="norButton" onClick={() => this.props.runSecondRandom()} 
+                        style={{position: "absolute", visibility: this.props.status ? "visibility" : "hidden"}}>
+                    TEST BUTTON 1
+                </button>
             </div>
         )
     }

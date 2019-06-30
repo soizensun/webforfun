@@ -1,28 +1,30 @@
-.body {
+/* .container {
     text-align: center;
+    background-color: aqua
     
-}
+} */
 
-button {
-    background: none;
-    color: rgb(0, 0, 0);
-    width: 200px;
-    height: 80px;
-    border: solid 1.5px #E74C3C;
-    font-size: 18px;
-    border-radius: 4px;
-    transition: .6s;
-    font-family: monospace;
+.faceButton {
+  margin-top: 10px;
+  background: none;
+  color: rgb(0, 0, 0);
+  width: 200px;
+  height: 80px;
+  border: solid 1.5px #3b5998;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  font-family: monospace;
     /* box-shadow: 2px 2px rgba(103, 103, 103, 0.755); */
 
 }
 
 
-button:focus {
+.faceButton:focus {
     outline: none;
   }
   
-  button::before {
+  .faceButton::before {
     content: '';
     display: block;
     position: absolute;
@@ -36,7 +38,7 @@ button:focus {
     transform: translateX(-130px) skewX(-15deg);
   }
   
-  button:after {
+  .faceButton:after {
     content: '';
     display: block;
     position: absolute;
@@ -51,21 +53,89 @@ button:focus {
   
   }
   
-  button:hover {
-    background: rgb(249, 71, 71);
+  .faceButton:hover {
+    background: #3b5998;
     cursor: pointer;
     color: rgb(255, 255, 255)
   }
   
-  button:hover:before {
+  .faceButton:hover:before {
     transform: translateX(300px) skewX(-15deg);
     opacity: .6;
     transition: .7s;
   }
   
-  button:hover:before {
+  .faceButton:hover:before {
     transform: translateX(300px) skewX(-15deg);
     opacity: 1;
     transition: .7s;
   }
 
+
+
+  
+.norButton {
+  background: none;
+  color: rgb(0, 0, 0);
+  width: 200px;
+  height: 80px;
+  border: solid 1.5px #E74C3C;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  font-family: monospace;
+  /* box-shadow: 2px 2px rgba(103, 103, 103, 0.755); */
+
+}
+
+
+.norButton:focus {
+  outline: none;
+}
+
+.norButton::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  width: 60px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: .5s;
+  filter: blur(30px);
+  transform: translateX(-130px) skewX(-15deg);
+}
+
+.norButton:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translateX(-100px) skewX(-15deg);
+
+}
+
+.norButton:hover {
+  background: rgb(249, 71, 71);
+  cursor: pointer;
+  color: rgb(255, 255, 255)
+}
+
+.norButton:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: .6;
+  transition: .7s;
+}
+
+.norButton:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: .7s;
+}

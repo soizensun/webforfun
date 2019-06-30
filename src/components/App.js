@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import FirstRandom from './FirstRandom'
 import SecondRandom from './SecondRandom'
+import '../css/App.css'
 
 class App extends Component {
   constructor(props) {
