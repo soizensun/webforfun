@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
-import {
-	FacebookShareButton,
-} from 'react-share';
+import { FacebookShareButton } from 'react-share';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '../css/SecondRandom.css'
 
 class SecondRandom extends Component {
     constructor(props) {
@@ -17,30 +16,35 @@ class SecondRandom extends Component {
         }
     }
 
-    randomSrc() {
-        
+    randomSrc = ()  => {
+        console.log(Math.floor(Math.random() * this.state.src.length));
     }
 
     render() {
         // console.log(Image1)
         return (
-            <div style={{
-                visibility: this.props.status ? "visible" : "hidden",
-                display: "block"
+            <div  style={{
+                visibility: this.props.status ? "visible" : "hidden", 
+                display: "block", textAlign: "center", marginTop: "30px"
             }}>
                 <div>
-                    <img src="https://live.staticflickr.com/4272/34945063085_e0489ff90c_b.jpg" />
+                    <img src = "https://live.staticflickr.com/4272/34945063085_e0489ff90c_b.jpg" />
                 </div>
                 <div>
-                    <button onClick={() => this.randomSrc}>
+                    <button onClick={ this.randomSrc() }>
                         TEST BUTTON 2
                     </button>
-                    <FacebookShareButton url="www.google.com" className="button is-outlined is-rounded facebook" >
-                        <span className="icon">
+                    
+                    <FacebookShareButton url={this.state.src[2]} className="button is-outlined is-rounded facebook" >
+                        {/* <span className="icon">
                             <i class="fab fa-facebook-square"></i>
-                        </span>
-                        <span className="text">Facebook</span>
+                        </span> */}
+                        <button>
+                        Facebook
+                        </button>
                     </FacebookShareButton>
+                   
+
                 </div>
             </div>
         )

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import '../css/FirstRandom.css'
 
 class FirstRandom extends Component {
     constructor(props) {
@@ -7,7 +8,9 @@ class FirstRandom extends Component {
 
     render() {
         return (
-            <button onClick={() => this.props.runSecondRandom()} style={{visibility: this.props.status ? "visibility" : "hidden"}}>TEST BUTTON 1</button>
+            <div className="body">
+                <button onClick={() => this.props.runSecondRandom()} style={{visibility: this.props.status ? "visibility" : "hidden"}}>TEST BUTTON 1</button>
+            </div>
         )
     }
 }
