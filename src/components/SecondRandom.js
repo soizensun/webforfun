@@ -15,12 +15,21 @@ class SecondRandom extends Component {
                 "https://lh3.googleusercontent.com/WXULbEKvBCkxFjcOhSKaAWWJiTGGYuXYyeVR_J4wYFUKBLbBWcoZKn6Ea9BkFfxxh9_AREwn8irCV_4Lf1ZJUwK8Q3VMharUWMF7nlZ4okU-UMjHSk2ark_vDxqFvtzRFBGlfRpd95S26co74eVo5IgOcEfsP_RHJMwPuIgBR7uZceiU9ItVeldhVg9Nr1HDSBKIwLOTyoxL0A57xx2W8sCqqHc9y997v5_pVyLrJfcaA94LnBIRfzbgEarKHzjfJrVKRWSYdm64tbVE47x-rWzGK1uuK6AtrGVRhZHhfBToF7aEBwx4nyNS0SSV1d__LtXs2oZHSb3NguaCMaCyaPcuZbDwBnwbAGlarbx3Z3vB2XqIC-Cc1LefoKV3bWTyC7c1C3PU4Kpgf7jkjkVayqLvNpOkkMG5z1lxzEf_SNWLjSsiNIkyCMrypJDmKtJklfCfjId94fh08Ctb5ag2PmWE27eykHn6Gmw3C5fAPG6aTcGjY476RsWIjL2dobbEAUt4fXrpNvd86F5YPStAKHEaGo2VlWyyucwjhM6luDvI85xHdviKYSKgI2LSfyCO0a_1jwbhZEFN9dSHLNVz8Re5UMbNB9mfvxZ4fVi_4ViuPABkFUc86nimcglUTXJcL24XUSR7Wp2_Sy_Y9_R_EgXkFLGYPA=w380-h470-no",
                 "https://lh3.googleusercontent.com/WXULbEKvBCkxFjcOhSKaAWWJiTGGYuXYyeVR_J4wYFUKBLbBWcoZKn6Ea9BkFfxxh9_AREwn8irCV_4Lf1ZJUwK8Q3VMharUWMF7nlZ4okU-UMjHSk2ark_vDxqFvtzRFBGlfRpd95S26co74eVo5IgOcEfsP_RHJMwPuIgBR7uZceiU9ItVeldhVg9Nr1HDSBKIwLOTyoxL0A57xx2W8sCqqHc9y997v5_pVyLrJfcaA94LnBIRfzbgEarKHzjfJrVKRWSYdm64tbVE47x-rWzGK1uuK6AtrGVRhZHhfBToF7aEBwx4nyNS0SSV1d__LtXs2oZHSb3NguaCMaCyaPcuZbDwBnwbAGlarbx3Z3vB2XqIC-Cc1LefoKV3bWTyC7c1C3PU4Kpgf7jkjkVayqLvNpOkkMG5z1lxzEf_SNWLjSsiNIkyCMrypJDmKtJklfCfjId94fh08Ctb5ag2PmWE27eykHn6Gmw3C5fAPG6aTcGjY476RsWIjL2dobbEAUt4fXrpNvd86F5YPStAKHEaGo2VlWyyucwjhM6luDvI85xHdviKYSKgI2LSfyCO0a_1jwbhZEFN9dSHLNVz8Re5UMbNB9mfvxZ4fVi_4ViuPABkFUc86nimcglUTXJcL24XUSR7Wp2_Sy_Y9_R_EgXkFLGYPA=w380-h470-no",
                 "https://lh3.googleusercontent.com/DkKWsCLKcbwlNyCkFuNP6nonbjKnx6PcFA_Mdr7BAG_AQdWZMMDADuustCJojcE6HS0_vsUd8phhkJSuFjGBI5g-Nf39D2u_Eyj654d9ZEF7enFJ33x7Ul9fSjgtiCZlwyJ7tQpLEjFz0-cVjPYeSfxwkpKFIr6yexcndLEhoSHS5k_vim0-gMMLv5079oBhlEtcTA84bbB-wKbaowl6QKs61EeyA97EwkmdoZ8OCP7r4VBhJjLynEbqBb0dgFIFWJCbqYntntpNstgkeP1EbkPuKEDtwXJoB9JUyY9Hi1sDDSEjMAhqex0wOB2ylnDpt11A6adovl3HLOtXxr775JKhtHs3GCg7TXfRjfkaHYcGNcTg0i5-jWE2Vge8g4-3kJpDi5ZVILogeOhjAqxGjexlBviZKljr8uxkE5ALAvCCjL-VSfA2hcbQKTduu6hO3ZdVT85ioS7_RTghhve8thA8Ol2h8FxrpPyzYlHgwq7O6wRceKzWnc1M11JCpH_sKkgQF1Qfvn1rVd0nQCwUp__7JcxSTvZi2JE10A4DHJJ82xF-nW6tpfK2jFWnzl4D7Z2l0cDiYjUpFPmum0ZSwFN8Fe-oU-8c-PQgFSkU45mVfNF8MXHM5YX0yfvsbH32UuwF82i9L88uLbtBN2ASZrmv3qs3KA=w380-h470-no",
+                "http://clip.teenee.com/etc/img8/110527.jpg",
+                "https://www.fosi.org/media/images/22601782810_cbe3ede5f5_o.focus-none.original.jpg",
+                "https://i.redd.it/faelbyv9bol21.jpg",
+                "https://www.naewna.com/uploads/news/source/368736.jpg",
+                "https://static.naewna.com/uploads/news/source/354911.jpg",
+                "https://www.thairath.co.th/media/4DQpjUtzLUwmJZZPGSh5iL1zWO72fv10HR6ihiyW55R4.jpg",
+                "https://morning-news.bectero.com/uploads/pic_news/big_15354500895b851be96dc60.jpg",
+                "https://static.naewna.com/uploads/news/source/381886.jpg",
+                "https://site-assets.mediaoxide.com/workpointnews/2018/12/07094227/1544150542_37036_Cover_-1200x630.jpg",
+                "https://img.tpolitic.com/relate/tpolitic_1554777561_6033.jpg",
             ],
             notes: "https://lh3.googleusercontent.com/DkKWsCLKcbwlNyCkFuNP6nonbjKnx6PcFA_Mdr7BAG_AQdWZMMDADuustCJojcE6HS0_vsUd8phhkJSuFjGBI5g-Nf39D2u_Eyj654d9ZEF7enFJ33x7Ul9fSjgtiCZlwyJ7tQpLEjFz0-cVjPYeSfxwkpKFIr6yexcndLEhoSHS5k_vim0-gMMLv5079oBhlEtcTA84bbB-wKbaowl6QKs61EeyA97EwkmdoZ8OCP7r4VBhJjLynEbqBb0dgFIFWJCbqYntntpNstgkeP1EbkPuKEDtwXJoB9JUyY9Hi1sDDSEjMAhqex0wOB2ylnDpt11A6adovl3HLOtXxr775JKhtHs3GCg7TXfRjfkaHYcGNcTg0i5-jWE2Vge8g4-3kJpDi5ZVILogeOhjAqxGjexlBviZKljr8uxkE5ALAvCCjL-VSfA2hcbQKTduu6hO3ZdVT85ioS7_RTghhve8thA8Ol2h8FxrpPyzYlHgwq7O6wRceKzWnc1M11JCpH_sKkgQF1Qfvn1rVd0nQCwUp__7JcxSTvZi2JE10A4DHJJ82xF-nW6tpfK2jFWnzl4D7Z2l0cDiYjUpFPmum0ZSwFN8Fe-oU-8c-PQgFSkU45mVfNF8MXHM5YX0yfvsbH32UuwF82i9L88uLbtBN2ASZrmv3qs3KA=w380-h470-no",
 
         }
     }
-
     handleClick = () => {
         setTimeout (  this.setState({
             notes: this.state.src[Math.floor(Math.random() *  this.state.src.length)]
@@ -39,14 +48,15 @@ class SecondRandom extends Component {
                 </div>
 
                 <div>
-                    <button className="norButton" onClick={this.handleClick}>Random Note</button>
+                    <button className="norButton" onClick={this.handleClick}>RANDOM</button>
                     
                     <FacebookShareButton url={this.state.notes} className="button is-outlined is-rounded facebook" >
                         <button className="faceButton">
-                        Facebook
+                        SHARE
                         </button>
                     </FacebookShareButton>
                    
+                    
 
                 </div>
             </div>

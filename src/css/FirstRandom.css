@@ -6,11 +6,11 @@
 
 .faceButton {
   margin-top: 10px;
-  background: none;
-  color: rgb(0, 0, 0);
+  background: #3b58982a;
+  color: white;
   width: 200px;
   height: 80px;
-  border: solid 1.5px #3b5998;
+  border: solid 3px #3b5998;
   font-size: 18px;
   border-radius: 4px;
   transition: .6s;
@@ -19,104 +19,25 @@
 
 }
 
-
-.faceButton:focus {
-    outline: none;
-  }
-  
-  .faceButton::before {
-    content: '';
-    display: block;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.7);
-    width: 60px;
-    height: 100%;
-    left: 0;
-    top: 0;
-    opacity: .5s;
-    filter: blur(30px);
-    transform: translateX(-130px) skewX(-15deg);
-  }
-  
-  .faceButton:after {
-    content: '';
-    display: block;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.2);
-    width: 30px;
-    height: 100%;
-    left: 30px;
-    top: 0;
-    opacity: 0;
-    filter: blur(30px);
-    transform: translateX(-100px) skewX(-15deg);
-  
-  }
-  
-  .faceButton:hover {
-    background: #3b5998;
-    cursor: pointer;
-    color: rgb(255, 255, 255)
-  }
-  
-  .faceButton:hover:before {
-    transform: translateX(300px) skewX(-15deg);
-    opacity: .6;
-    transition: .7s;
-  }
-  
-  .faceButton:hover:before {
-    transform: translateX(300px) skewX(-15deg);
-    opacity: 1;
-    transition: .7s;
-  }
+.faceButton:hover {
+  background: #3b5998;
+  cursor: pointer;
+  color: rgb(255, 255, 255)
+}
 
 
 
   
 .norButton {
-  background: none;
-  color: rgb(0, 0, 0);
+  width: 200px;
+  background: rgba(231, 77, 60, 0.265);
+  color: rgb(255, 255, 255);
   padding: 2rem 4rem;
-  border: solid 1.5px #E74C3C;
+  border: solid 3px #E74C3C;
   font-size: 18px;
   border-radius: 4px;
   transition: .6s;
   font-family: monospace;
-}
-
-
-.norButton:focus {
-  outline: none;
-}
-
-.norButton::before {
-  content: '';
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.7);
-  width: 60px;
-  height: 100%;
-  left: 0;
-  top: 0;
-  opacity: .5s;
-  filter: blur(30px);
-  transform: translateX(-130px) skewX(-15deg);
-}
-
-.norButton:after {
-  content: '';
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.2);
-  width: 30px;
-  height: 100%;
-  left: 30px;
-  top: 0;
-  opacity: 0;
-  filter: blur(30px);
-  transform: translateX(-100px) skewX(-15deg);
-
 }
 
 .norButton:hover {
@@ -125,14 +46,3 @@
   color: rgb(255, 255, 255)
 }
 
-.norButton:hover:before {
-  transform: translateX(300px) skewX(-15deg);
-  opacity: .6;
-  transition: .7s;
-}
-
-.norButton:hover:before {
-  transform: translateX(300px) skewX(-15deg);
-  opacity: 1;
-  transition: .7s;
-}
